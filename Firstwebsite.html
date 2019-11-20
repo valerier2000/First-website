@@ -4,11 +4,218 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>First website</title>
-    </head>
-    <body>
-        <h1>Hello world</h1>
-        <p>website</p>
-        <p>something</p>
-        <h2>Hi</h2> 
-    </body>
+    <title>Valerie's resume</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <style>
+        body{
+            padding-bottom: 90px;
+        }
+        .nes-progress{
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav style = "padding: 20px; border-bottom: 3px solid #ccc; margin-bottom: 60px;">
+        <div class="container">
+            <h2 style="margin-bottom: 0;">
+                <i class="nes-icon coin"></i>
+                Valerie
+            </h2>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-bottom: 50px;">
+        <div class="row">
+            <div class="col">
+                <i class="nes-bcrikko"></i>  
+            </div>
+            <div class="col-sm-9 col-xs-12">
+                <div class="nes-balloon from-left">
+                    <p>I'm Valerie. This is everything about me <i class="nes-icon is-small heart"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="nes-container with-title">
+                   <h3 class="title">Things I Do</h3>
+                   <div>
+                        <div class="lists">
+                            <ul class="nes-list is-circle" style="margin-bottom: 0;">
+                                <li>Programmer</li>
+                                <li>Web developer</li>
+                                <li>Mobile developer</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+                <div class="nes-container with-title is-dark" style="margin-top: 50px; margin-bottom: 50px;">
+                    <h3 class="title">Hobbies</h3>
+                    <div>
+                        <i class="nes-icon is-small heart"></i>
+                        Programming
+                    </div>
+                    <div>
+                        <i class="nes-icon is-small star"></i>
+                        Languages
+                    </div>
+                </div>
+                <div class="nes-container with-title" style="margin-top: 50px; margin-bottom: 50px;">
+                    <h3 class="title">My Socials</h3>
+                    <div>
+                        <a href="#">
+                            <i class="nes-icon twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="nes-icon facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="nes-icon instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="nes-icon whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <div class="nes-container with-title" >
+                    <h3 class="title">Frontend Knowledge</h3>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">HTML</div>
+                        <div class="col-sm-8 col-xs-12">
+                            <progress 
+                            class="nes-progress is-success"
+                            value="60"
+                            max="100"
+                            >
+                        </progress>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-sm-4 col-xs-12">CSS</div>
+                            <div class="col-sm-8 col-xs-12">
+                                <progress 
+                                class="nes-progress is-warning"
+                                value="20"
+                                max="100"
+                                >
+                            </progress>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-sm-4 col-xs-12">Javascript</div>
+                                <div class="col-sm-8 col-xs-12">
+                                    <progress 
+                                    class="nes-progress is-error"
+                                    value="10"
+                                    max="100"
+                                    >
+                                </progress>
+                                </div>
+                            </div>
+                </div>
+                <div class="nes-container is-dark with-title" style="margin-top: 40px;">
+                    <h3 class="title">Backend Knowledge</h3>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">C++</div>
+                        <div class="col-sm-8 col-xs-12">
+                            <progress 
+                            class="nes-progress is-success"
+                            value="50"
+                            max="100"
+                            >
+                        </progress>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">Python</div>
+                        <div class="col-sm-8 col-xs-12">
+                            <progress 
+                            class="nes-progress is-error"
+                            value="10"
+                            max="100"
+                            >
+                        </progress>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">React</div>
+                        <div class="col-sm-8 col-xs-12">
+                            <progress 
+                            class="nes-progress is-error"
+                            value="1"
+                            max="100"
+                            >
+                        </progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="nes-container with-title" style="margin-top: 40px;">
+                    <h3 class="title">Build Tools</h3>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">React naive</div>
+                        <div class="col-sm-8 col-xs-12">
+                            <progress 
+                            class="nes-progress is-error"
+                            value="1"
+                            max="100"
+                            >
+                        </progress>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-sm-4 col-xs-12">JSX</div>
+                            <div class="col-sm-8 col-xs-12">
+                                <progress 
+                                class="nes-progress is-error"
+                                value="1"
+                                max="100"
+                                >
+                            </progress>
+                            </div>
+                </div>
+            </div>               
+
+            <h3 class="topic-title" style="margin-top: 40px;">
+                <i class="nes-icon star"></i>Education
+            </h3>
+            <div class="nes-container is-dark">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <img src="https://github.com/BcRikko.png?size=100"
+                        style="width: 100%; height: auto;" />
+                    </div>
+                    <div class="col-xs-10">
+                        <h3>Irpin school №12</h3>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                        <div class="col-xs-2">
+                            <img src="https://github.com/BcRikko.png?size=100"
+                            style="width: 100%; height: auto;" />
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>European University</h3>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 50px; font-size: 60%;">
+        <div class="row">
+            <div class="col-xs-12" style="text-align: center; color: #ccc;">
+                Valerie &copyopyright
+            </div>
+        </div>
+    </div>
+</body>
+</html>
